@@ -1,7 +1,7 @@
-#include <cstdio>
-#include <cstdint>
-#include <windows.h>
-#include <windowsx.h> // GET_X_LPARAM
+#include <cstdio> // printf()
+#include <cstdint> // uint32_t
+#include <windows.h> // CreateWindow(), SetWindowLongPtr(), RegisterClass(), GetDC(), ReleaseDC(), SetPixel()
+#include <windowsx.h> // GET_X_LPARAM()
 
 // We're going to use this structure a lot for handling user input, drawing on the screen, calculate physics and animations, make an UI system, etc.
 struct SCoord {
