@@ -26,6 +26,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dependency", "dependency\de
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "line", "line\line.vcxproj", "{0273CA22-B59B-45DB-9E10-6C8FE4655DD1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F0802527-80DD-4C06-8C2A-402BF277CF85} = {F0802527-80DD-4C06-8C2A-402BF277CF85}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitblt", "bitblt\bitblt.vcxproj", "{153E6C60-90B4-4EE9-8D26-24282B56E0C2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F0802527-80DD-4C06-8C2A-402BF277CF85} = {F0802527-80DD-4C06-8C2A-402BF277CF85}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +115,14 @@ Global
 		{0273CA22-B59B-45DB-9E10-6C8FE4655DD1}.Release|x64.Build.0 = Release|x64
 		{0273CA22-B59B-45DB-9E10-6C8FE4655DD1}.Release|x86.ActiveCfg = Release|Win32
 		{0273CA22-B59B-45DB-9E10-6C8FE4655DD1}.Release|x86.Build.0 = Release|Win32
+		{153E6C60-90B4-4EE9-8D26-24282B56E0C2}.Debug|x64.ActiveCfg = Debug|x64
+		{153E6C60-90B4-4EE9-8D26-24282B56E0C2}.Debug|x64.Build.0 = Debug|x64
+		{153E6C60-90B4-4EE9-8D26-24282B56E0C2}.Debug|x86.ActiveCfg = Debug|Win32
+		{153E6C60-90B4-4EE9-8D26-24282B56E0C2}.Debug|x86.Build.0 = Debug|Win32
+		{153E6C60-90B4-4EE9-8D26-24282B56E0C2}.Release|x64.ActiveCfg = Release|x64
+		{153E6C60-90B4-4EE9-8D26-24282B56E0C2}.Release|x64.Build.0 = Release|x64
+		{153E6C60-90B4-4EE9-8D26-24282B56E0C2}.Release|x86.ActiveCfg = Release|Win32
+		{153E6C60-90B4-4EE9-8D26-24282B56E0C2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

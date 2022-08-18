@@ -38,7 +38,7 @@ int rasterRectangle (const SRectangle & rectangle, std::function<int(const SCoor
 int rasterCircle	(const SCircle & circle, std::function<int(const SCoord &)> funcSetPixel) {
 	const SRectangle	enclosingRectangle	= 
 		{ {circle.Center.x - circle.Radius, circle.Center.y - circle.Radius}
-		, {circle.Center.x + circle.Radius, circle.Center.y - circle.Radius}
+ 		, {circle.Center.x + circle.Radius, circle.Center.y - circle.Radius}	// Here I made a mistake and it should be {int(circle.Radius * 2) + 1, int(circle.Radius * 2) + 1}
 		};
 
 	return rasterRectangle(enclosingRectangle, [circle, funcSetPixel] (const SCoord & cellCoord) {
