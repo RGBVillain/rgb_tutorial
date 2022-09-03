@@ -40,6 +40,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "redraw", "redraw\redraw.vcx
 		{F0802527-80DD-4C06-8C2A-402BF277CF85} = {F0802527-80DD-4C06-8C2A-402BF277CF85}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pixel_center", "pixel_center\pixel_center.vcxproj", "{943DB0D9-AEF9-4F3A-AAA1-C42A2D500739}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -136,6 +138,14 @@ Global
 		{69091D67-45F6-4F6E-BD3F-946F2673BB3D}.Release|x64.Build.0 = Release|x64
 		{69091D67-45F6-4F6E-BD3F-946F2673BB3D}.Release|x86.ActiveCfg = Release|Win32
 		{69091D67-45F6-4F6E-BD3F-946F2673BB3D}.Release|x86.Build.0 = Release|Win32
+		{943DB0D9-AEF9-4F3A-AAA1-C42A2D500739}.Debug|x64.ActiveCfg = Debug|x64
+		{943DB0D9-AEF9-4F3A-AAA1-C42A2D500739}.Debug|x64.Build.0 = Debug|x64
+		{943DB0D9-AEF9-4F3A-AAA1-C42A2D500739}.Debug|x86.ActiveCfg = Debug|Win32
+		{943DB0D9-AEF9-4F3A-AAA1-C42A2D500739}.Debug|x86.Build.0 = Debug|Win32
+		{943DB0D9-AEF9-4F3A-AAA1-C42A2D500739}.Release|x64.ActiveCfg = Release|x64
+		{943DB0D9-AEF9-4F3A-AAA1-C42A2D500739}.Release|x64.Build.0 = Release|x64
+		{943DB0D9-AEF9-4F3A-AAA1-C42A2D500739}.Release|x86.ActiveCfg = Release|Win32
+		{943DB0D9-AEF9-4F3A-AAA1-C42A2D500739}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
